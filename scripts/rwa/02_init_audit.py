@@ -26,6 +26,6 @@ def main():
     pline("funding complete")
     pline("Initiating Audit:")
     request_tx = rwa_contract.initiate_audit(
-        "Demo Project A", "audit_admin_a@foxhole", 1000, {"from": account, "nonce": 600}
+        "Demo Project A", "audit_admin_a@foxhole", 1000, {"from": account}
     )
     pline("Audit inititated")
